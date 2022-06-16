@@ -1,0 +1,25 @@
+name: twitter_1998
+description: A makeshift Twitter with 1998s aesthetic
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+2
+  google_fonts: ^3.0.1
+  pixelarticons: ^0.1.0
+  flutter_lorem: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
